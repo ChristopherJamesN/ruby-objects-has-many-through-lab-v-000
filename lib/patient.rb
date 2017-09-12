@@ -14,9 +14,9 @@ class Patient
     @appointments << appointment
   end
 
-  def artists
-    @songs.collect do |song|
-      song.artist
+  def doctors
+    @appointments.collect do |appointment|
+      appointment.doctor
     end
   end
 end
