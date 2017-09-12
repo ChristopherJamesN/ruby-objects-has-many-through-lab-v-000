@@ -6,8 +6,8 @@ class Patient
     @appointments = []
   end
 
-  def songs
-    @songs
+  def appointments
+    @appointments
   end
 
   def add_appointment(appointment)
