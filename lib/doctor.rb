@@ -8,7 +8,7 @@ class Doctor
 
   def add_appointment(appointment)
     @appointments << appointment
-    song.artist = self
+    appointment.doctor = self
   end
 
   def songs
