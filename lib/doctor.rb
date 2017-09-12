@@ -6,8 +6,8 @@ class Doctor
     @appointments = []
   end
 
-  def add_song(song)
-    @songs << song
+  def add_appointment(appointment)
+    @appointments << appointment
     song.artist = self
   end
 
